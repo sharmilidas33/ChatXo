@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatXo</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-100 min-h-screen flex flex-col justify-between">
+    <header class="header bg-green-500 p-4">
+        <h1 class="text-white text-xl text-center">ChatXo</h1>
+    </header>
+
+
+    <div class="messages-container overflow-y-auto" style="max-height: calc(100vh - 80px);">
+        <div class="flex-1 flex flex-col justify-end px-4 py-20">
+            <div class="flex items-start mb-2">
+                <img src="UserA.jpg" alt="User A" class="w-8 h-8 rounded-full mr-2">
+                <div>
+                    <p class="text-blue-600">Rohan</p>
+                    <div class="bg-blue-200 text-blue-800 rounded-lg p-2">
+                        <p>Hello! 😊👋</p>
+                        <p class="text-xs text-gray-500">12:30 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-start justify-end mb-2">
+                <div>
+                    <p class="text-green-600">Sweta</p>
+                    <div class="bg-green-200 text-green-800 rounded-lg p-2">
+                        <p>Hi there! 😊</p>
+                        <p class="text-xs text-gray-500">12:31 PM</p>
+                    </div>
+                </div>
+                <img src="UserB.jpg" alt="User B" class="w-8 h-8 rounded-full ml-2">
+            </div>
+            <div class="flex items-start mb-2">
+                <img src="UserA.jpg" alt="User A" class="w-8 h-8 rounded-full mr-2">
+                <div>
+                    <p class="text-blue-600">Rohan</p>
+                    <div class="bg-blue-200 text-blue-800 rounded-lg p-2">
+                        <p>Did you complete the assignment?</p>
+                        <p class="text-xs text-gray-500">12:32 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-start justify-end mb-2">
+                <div>
+                    <p class="text-green-600">Sweta</p>
+                    <div class="bg-green-200 text-green-800 rounded-lg p-2">
+                        <p>Not yet.</p>
+                        <p class="text-xs text-gray-500">12:33 PM</p>
+                    </div>
+                </div>
+                <img src="UserB.jpg" alt="User B" class="w-8 h-8 rounded-full ml-2">
+            </div>
+            <div class="flex items-start mb-2">
+                <img src="UserA.jpg" alt="User A" class="w-8 h-8 rounded-full mr-2">
+                <div>
+                    <p class="text-blue-600">Rohan</p>
+                    <div class="bg-blue-200 text-blue-800 rounded-lg p-2">
+                        <p>What's your approach?</p>
+                        <p class="text-xs text-gray-500">12:37 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-start justify-end mb-2">
+                <div>
+                    <p class="text-green-600">Sweta</p>
+                    <div class="bg-green-200 text-green-800 rounded-lg p-2">
+                        <p>I will solve it in copy first.</p>
+                        <p class="text-xs text-gray-500">12:39 PM</p>
+                    </div>
+                </div>
+                <img src="UserB.jpg" alt="User B" class="w-8 h-8 rounded-full ml-2">
+            </div>
+            <div class="flex items-start mb-2">
+                <img src="UserA.jpg" alt="User A" class="w-8 h-8 rounded-full mr-2">
+                <div>
+                    <p class="text-blue-600">Rohan</p>
+                    <div class="bg-blue-200 text-blue-800 rounded-lg p-2">
+                        <p>Impressive.</p>
+                        <p class="text-xs text-gray-500">12:40 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-start justify-end mb-2">
+                <div>
+                    <p class="text-green-600">Sweta</p>
+                    <div class="bg-green-200 text-green-800 rounded-lg p-2">
+                        <p>Will send you asap!</p>
+                        <p class="text-xs text-gray-500">12:41 PM</p>
+                    </div>
+                </div>
+                <img src="UserB.jpg" alt="User B" class="w-8 h-8 rounded-full ml-2">
+            </div>
+            <div class="flex items-start mb-2">
+                <img src="UserA.jpg" alt="User A" class="w-8 h-8 rounded-full mr-2">
+                <div>
+                    <p class="text-blue-600">Rohan</p>
+                    <div class="bg-blue-200 text-blue-800 rounded-lg p-2">
+                        <p>Thanks Sweta.</p>
+                        <p class="text-xs text-gray-500">12:43 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-start justify-end mb-2">
+                <div>
+                    <p class="text-green-600">Sweta</p>
+                    <div class="bg-green-200 text-green-800 rounded-lg p-2">
+                        <p>You are welcome.</p>
+                        <p class="text-xs text-gray-500">12:45 PM</p>
+                    </div>
+                </div>
+                <img src="UserB.jpg" alt="User B" class="w-8 h-8 rounded-full ml-2">
+            </div>
+        </div>
+    </div>
+    <div class="online-container bg-gray-100 py-2 px-4 sticky top-0 z-10">
+        <div class="flex items-center">
+            <img src="UserA.jpg" alt="User A" class="w-8 h-8 rounded-full mr-2">
+            <div>
+                <p class="text-blue-600">Rohan</p>
+                <p class="text-xs text-green-600">Online</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer bg-gray-200 p-4">
+        <div class="flex">
+            <input type="text" class="flex-1 rounded-full p-2 focus:outline-none" placeholder="Type your message...">
+            <button class="bg-blue-500 text-white px-4 py-2 ml-2 rounded-full">Send</button>
+        </div>
+    </footer>
+</body>
+
+</html>
