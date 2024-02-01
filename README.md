@@ -15,8 +15,8 @@ To use ChatXo, simply open the `index.html` file in your web browser. You can st
 
 ## Preview
 
-![Screenshot 2024-01-31 124524](https://github.com/sharmilidas33/ChatXo/assets/128738858/0f623b26-d1f7-47f5-a0a8-ee4a7d93eb6b)
-![ChatXo](https://github.com/sharmilidas33/ChatXo/assets/128738858/f358efa1-c7a8-4f32-afaa-892b344a948d)
+![Screenshot 2024-01-31 165543](https://github.com/sharmilidas33/ChatXo/assets/128738858/92c6302c-1b20-470e-a2e0-c7bf9391d931)
+![Screenshot 2024-01-31 164958](https://github.com/sharmilidas33/ChatXo/assets/128738858/947e405c-2e0b-483f-9333-36f4300ddbe2)
 
 
 ## Contributing
